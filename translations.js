@@ -1,6 +1,6 @@
 const translations = {
     en: {
-        title: "Akshaya & Anand",
+        title: "Akshaya & Anand Mahadevan",
         subtitle: "We're Getting Married",
         openInvite: "Unlock Invitation",
         ourStory: "Our Story",
@@ -26,7 +26,7 @@ const translations = {
         contactAkshaya: "Contact Akshaya"
     },
     ml: {
-        title: "അക്ഷയ & ആനന്ദ്",
+        title: "അക്ഷയ & ആനന്ദ് മഹാദേവൻ",
         subtitle: "ഞങ്ങൾ വിവാഹിതരാകുന്നു",
         openInvite: "ക്ഷണക്കത്ത് തുറക്കുക",
         ourStory: "ഞങ്ങളുടെ കഥ",

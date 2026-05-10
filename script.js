@@ -8,6 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
     function setLanguage(lang) {
         if (!translations[lang]) return;
         
+        // Update page title
+        if (translations[lang].pageTitle) {
+            document.title = translations[lang].pageTitle;
+        }
+
         // Update active class on buttons
         if (lang === 'en') {
             btnEn.classList.add('active');
@@ -30,6 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     btnEn.addEventListener('click', () => setLanguage('en'));
     btnMl.addEventListener('click', () => setLanguage('ml'));
+
+    // Initialize with English
+    setLanguage('en');
 
 
     // --- 2. Countdown Timer Logic ---

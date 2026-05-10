@@ -8,7 +8,7 @@ const translations = {
         storyTitle: "How It All Began",
         storyText: `We first met in a common online group, the PinkLungi media channel. 
         What started as casual conversations about work and life soon blossomed into friendship, 
-        and eventually into love!.`,
+        and eventually into love!`.replace(/[\r\n]+/gm, " "),
         weddingDetails: "The Wedding",
         weddingDate: "January 22, 2027",
         weddingTime: "06:30 AM Muhurtham",
@@ -18,6 +18,7 @@ const translations = {
         receptionTime: "To Be Announced",
         receptionVenue: "To Be Announced",
         venueMap: "Venue Map",
+        getDirections: "Get Directions",
         countdownTitle: "Counting Down The Days :)",
         days: "Days",
         hours: "Hours",
@@ -30,7 +31,7 @@ const translations = {
     },
     ml: {
         title: "അക്ഷയ & ആനന്ദ് മഹാദേവൻ",
-        pageTitle: "അക്ഷയ & ആനന്ദ് മഹാദേവൻ - വിവാഹ ക്ഷണം",
+        pageTitle: "അക്ഷയ & ആനന്ദ് മഹാദേവൻ - വിവാഹക്ഷണം",
         subtitle: "ഞങ്ങൾ വിവാഹിതരാകുന്നു",
         openInvite: "ക്ഷണക്കത്ത് തുറക്കുക",
         ourStory: "ഞങ്ങളുടെ കഥ",
@@ -38,7 +39,7 @@ const translations = {
         storyText: `
         PinkLungi എന്ന ഒരു ഓൺലൈൻ മീഡിയ ചാനലിൽ നിന്നാണ് ഞങ്ങൾ കണ്ടുമുട്ടിയത്.
         ജോലിയെയും ജീവിതത്തെയും കുറിച്ചുള്ള സാധാരണ സംഭാഷണങ്ങളായി തുടങ്ങിയത് പെട്ടെന്ന് സൗഹൃദത്തിലേക്കും 
-        ഒടുവിൽ പ്രണയത്തിലേക്കും വളർന്നു!.`,
+        ഒടുവിൽ പ്രണയത്തിലേക്കും വളർന്നു!`.replace(/[\r\n]+/gm, " "),
         weddingDetails: "വിവാഹ ചടങ്ങ്",
         weddingDate: "ജനുവരി 22, 2027",
         weddingTime: "06:30 AM മുഹൂർത്തം",
@@ -48,6 +49,7 @@ const translations = {
         receptionTime: "പിന്നീട് അറിയിക്കുന്നതാണ്",
         receptionVenue: "പിന്നീട് അറിയിക്കുന്നതാണ്",
         venueMap: "വേദി മാപ്പ്",
+        getDirections: "വഴി അറിയാൻ",
         countdownTitle: "ഇനി എത്ര ദിനങ്ങൾ :)",
         days: "ദിവസങ്ങൾ",
         hours: "മണിക്കൂർ",

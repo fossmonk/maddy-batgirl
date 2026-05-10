@@ -11,7 +11,7 @@
 
     /* Typography */
     --font-en-title: 'Cinzel', serif;
-    --font-en-body: 'Epilogue', sans-serif;
+    --font-en-body: 'Inter', sans-serif;
     --font-ml: 'Anek Malayalam', sans-serif;
     --font-primary: var(--font-en-body);
     --font-heading: var(--font-en-title);
@@ -505,6 +505,25 @@ section {
     overflow: hidden;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     border: 2px solid var(--kasavu-gold);
+}
+
+.map-actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.map-btn {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.map-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* GSAP Initial States */
